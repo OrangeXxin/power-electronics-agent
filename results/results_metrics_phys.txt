@@ -1,0 +1,11 @@
+Boost PFC 500W 物理级开关模型 (ee_lib/Simscape)
+PF=0.9484
+THD=33.22%
+Eff=99.34%
+Vo=395.99V
+dVo=11.47V
+Vrms=220.0V
+Irms=2.365A
+Pin=493.4W
+Pout=490.1W
+SimTime=115.5s
