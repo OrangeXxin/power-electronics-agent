@@ -1,0 +1,9 @@
+Boost PFC 500W 仿真结果 (平均模型, 15-Aug-2026 23:41:14)
+PF=0.9814
+THD=19.60%
+Eff=97.34%
+Vo=395.53V
+dVo=13.24V
+Pin=502.4W
+Pout=489.1W
+SimTime=8.6s
