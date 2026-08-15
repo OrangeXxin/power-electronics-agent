@@ -1,0 +1,10 @@
+mdl='probe_enum'; new_system(mdl);
+add_block('nesl_utility/Simulink-PS Converter',[mdl '/gSP']);
+dp = get_param([mdl '/gSP'],'DialogParameters');
+fprintf('FilteringAndDerivatives valid values:\n');
+disp(dp.FilteringAndDerivatives);
+fprintf('InputFilterTimeConstant valid values:\n');
+disp(dp.InputFilterTimeConstant);
+fprintf('AffineConversion valid values:\n');
+disp(dp.AffineConversion);
+close_system(mdl,0);
